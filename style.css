@@ -1,0 +1,143 @@
+/*Global*/
+
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #233348;
+    --link: #1f1534;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+    font-weight: 400;
+}
+
+a:hover {
+    font-weight: 700;
+    opacity: 1;
+}
+
+header {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: 40px;
+    opacity: 0.5;
+}
+
+.dots {
+    margin-top: 460;
+    margin-left: 60;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 84px;
+}
+
+.virtual-healthcare h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.virtual-healthcare p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7d7987;
+    mix-blend-mode: normal;
+}
+
+.virtual-healthcare a {
+    margin-top: 30;
+    background: #458ff6;
+    border-radius: 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    padding: 20px 40px;
+}
+
+.section2 {
+    display: block;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.section2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 1, 900;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.section2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7d7987;
+    mix-blend-mode: normal;
+}
+
+.section3_with_background {
+    background-image: url('images/Vector.png');
+    background-repeat: no-repeat;
+}
+
+.section3 {
+    display: block;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.section-of-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.card {
+    display: block;
+    justify-content: left;
+    border: 2px solid #ffffff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 40px;
+    size: 350px 354px;
+}
